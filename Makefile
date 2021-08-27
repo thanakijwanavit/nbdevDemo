@@ -9,8 +9,7 @@ build:
 test: build
 	cp layer/requirements.txt app/requirements.txt
 	sam build
-	sam local invoke -e testData/Get.json Get
-	sam local invoke -e testData/RefreshEcommerce.json RefreshEcommerce
+	sam local invoke -e test/Hello1.json HelloWorld
 	rm app/requirements.txt
 	touch app/requirements.txt
 deploy: test

@@ -1,1 +1,9 @@
 awsSchema
+requests-aws4auth
+beartype
+dataclasses-jsonschema
+pycognito
+nicHelper
+ujson
+pynamodb-dax
+lambdasdk
