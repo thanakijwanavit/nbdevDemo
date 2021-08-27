@@ -6,6 +6,4 @@ pycognito
 nicHelper
 ujson
 pynamodb-dax
-pydantic
 lambdasdk
-git+https://github.com/lyft/pynamodb-attributes.git
